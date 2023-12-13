@@ -1,0 +1,35 @@
+main {
+    margin: 100px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+main .loginContent {
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    width: 350px; height: 135px;
+    padding: 16px 16px 12px;
+}
+main .loginContent .loginTop {}
+.loginContent .loginTop p {
+    font-size: 0.75rem;
+}
+main .loginContent .loginTop a {
+    font-size: 1.063rem;
+    font-weight: 800;
+    color: #fff;
+    background-color: #19ce60;
+    padding: 15px 0;
+    margin: 16px 0 12px;
+    display: block;
+    text-align: center;
+}
+main .loginContent .loginBottom {}
+main .loginContent .loginBottom a {
+    font-size: 0.75rem;
+    word-spacing: 3px;
+}
+main .loginContent .loginBottom .joinBtn {
+    float: right;
+    font-size: 0.75rem;
+}
