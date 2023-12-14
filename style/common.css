@@ -1,0 +1,35 @@
+/* header */
+
+header {
+    width: 768px; height: 33px;
+    margin: 0 auto;
+}
+header #LanguageFrm {}
+header #LanguageFrm fieldset {}
+header #LanguageFrm fieldset #Language {
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    float: right;
+    
+}
+header #LanguageFrm fieldset #Language option {
+    
+}
+/* footer */
+footer {
+    width: 100%; margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+footer .law {
+    margin:0 0 10px;
+}
+footer .law a {
+    font-size: 0.75rem;
+    
+}
+footer p {
+    font-size: 0.75rem;
+}
