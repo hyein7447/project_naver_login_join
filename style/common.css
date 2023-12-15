@@ -1,20 +1,13 @@
 /* header */
-
 header {
     width: 768px; height: 33px;
     margin: 0 auto;
 }
-header #LanguageFrm {}
-header #LanguageFrm fieldset {}
-header #LanguageFrm fieldset #Language {
-    border: 1px solid #aaa;
+header #language {
     padding: 5px 10px;
     float: right;
-    
 }
-header #LanguageFrm fieldset #Language option {
-    
-}
+header .language option {}
 /* footer */
 footer {
     width: 100%; margin: 0 auto;
@@ -29,6 +22,15 @@ footer .law {
 footer .law a {
     font-size: 0.75rem;
     
+}
+footer .law a::after {
+    background-color: #aaa; width: 1px; height: 10px;
+    content: ''; display: inline-block;
+    position: relative; top: 1px;
+    margin: 0 3px 0 3px;
+}
+footer .law a:last-child:after {
+    display: none;
 }
 footer p {
     font-size: 0.75rem;
