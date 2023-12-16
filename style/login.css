@@ -1,1 +1,63 @@
+body {background-color: #f5f6f7;}
 /* main */
+main {width: 768px; margin: 0 auto;
+}
+main .login {display: flex; flex-flow: column nowrap;
+    align-items: center;}
+main .login h1 {
+    margin: 40px 0;
+}
+main .login h1 a {}
+main .login h1 a img {width: 230px; height: 45px;}
+main .login #loginFrm {}
+main .login #loginFrm fieldset {
+    border-bottom: 1px solid #aaa;
+}
+main .login #loginFrm fieldset p {
+    margin-bottom: 10px;
+}
+main .login #loginFrm fieldset p #userId, main .login #loginFrm fieldset p #userPwd {
+    border: 1px solid #ccc;
+    padding: 20px 15px; width: 460px; height: 60px;
+}
+main .login #loginFrm fieldset p #userId {}
+main .login #loginFrm fieldset p #userPwd {}
+main .login #loginFrm fieldset #loginBtn {
+    background-color: #03c75a; color: #fff;
+    padding: 25px; width: 100%; border:0;
+}
+main .login #loginFrm fieldset .loginOption {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+main .login #loginFrm fieldset .loginOption .left {}
+main .login #loginFrm fieldset .loginOption .left .longBtn {}
+main .login #loginFrm fieldset .loginOption .right {}
+main .login #loginFrm fieldset .loginOption .right a {}
+main .login #loginFrm fieldset .loginOption .right a span {
+    color: #03c75a; font-weight: 700;}
+main .login #loginFrm fieldset .loginOption .right a span::after {
+    background-color: #aaa; width: 1px; height: 10px;
+    content: ''; display: inline-block; margin: 0 4px 0 6px;
+}
+main .login #loginFrm fieldset .loginOption .right .right_login
+{text-decoration: underline;}
+main .login .loginService {margin-top: 20px;
+    position: relative;
+}
+main .login .loginService a {
+    padding: 0px 8px 0 9px;
+}
+main .login .loginService a:last-child {
+    padding-right: 0;
+}
+main .login .loginService a::after {
+    content: ''; display: inline-block;
+    background-color: #aaa; width: 1px; height: 20px;
+    margin: 0px 4px 0 7px;
+    position: absolute; top: -2px;
+}
+main .login .loginService a:last-child::after {
+    display: none;
+}

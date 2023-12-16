@@ -6,6 +6,7 @@ header {
 header #language {
     padding: 5px 10px;
     float: right;
+    border: 1px solid #aaa;
 }
 header .language option {}
 /* footer */

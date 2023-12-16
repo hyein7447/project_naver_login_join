@@ -1,0 +1,89 @@
+body {background-color: #f5f6f7;}
+main {width: 768px; margin: 0 auto;}
+main .law {display: flex; flex-flow: column nowrap;
+    align-items: center;}
+main .law h1 {margin: 40px 0;}
+main .law h1 a {}
+main .law h1 a img {width: 230px; height: 45px;}
+main .law .content {}
+main .law .content form {}
+main .law .content form fieldset {
+    width: 460px;
+}
+main .law .content form fieldset>p {
+    font-size: 0.875rem; font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+main .law .content form fieldset p label {}
+main .law .content form fieldset p label #allAgree {}
+main .law .content form fieldset dl {}
+main .law .content form fieldset dl dt {
+    margin: 20px 0; font-weight: 700;
+}
+main .law .content form fieldset dl dt input {}
+main .law .content form fieldset dl dt span {
+    color: #08a600;
+}
+main .law .content form fieldset dl dt em {
+    color: #aaa;
+}
+main .law .content form fieldset dl dd {}
+main .law .content form fieldset dl dd .textBox {
+    border: 1px solid #ccc;
+    overflow: auto;
+    height: 88px;
+    background-color: #fff;
+    padding: 10px;
+}
+main .law .content form fieldset dl dd .textBox h2 {
+    font-size: 0.813rem; margin-bottom: 10px;
+    font-weight: 700;
+}
+main .law .content form fieldset dl dd .textBox p {
+    font-size: 0.75rem; line-height: 1.5;
+    margin-bottom: 35px;
+}
+main .law .content form fieldset dl .chkBox2 {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .law .content form fieldset dl .chkBox2 p {
+    font-weight: 700;
+    padding-top: 5px;
+}
+main .law .content form fieldset dl .chkBox2 p input {
+    
+}
+main .law .content form fieldset dl .chkBox2 p input span {}
+main .law .content form fieldset dl .chkBox2 a {
+    padding: 7px 10px;
+    border: 1px solid #08a600;
+    color: #08a600;
+    background-color: #fff;
+    font-size: 0.75rem;
+    align-items: center;
+}
+main .law .content form fieldset .Btn {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main .law .content form fieldset .Btn #resetBtn {
+    background-color: #08a600; color: #fff;
+    padding: 20px 0; width: 225px;
+    border: 0;
+}
+main .law .content form fieldset .Btn a {
+    background-color: #8e8e8e; color: #fff;
+    width: 225px; padding: 20px 0; text-align: center;
+}
+main .law .content .joinOption {
+    margin: 20px 0; display: flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+main .law .content .joinOption p {font-size: 0.75rem;
+padding: 0 5px 0 0;}
+main .law .content .joinOption a {font-size: 0.75rem;
+text-decoration: underline;}
