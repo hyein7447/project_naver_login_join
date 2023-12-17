@@ -32,7 +32,15 @@ main .login #loginFrm fieldset .loginOption {
     padding: 10px 0 20px;
 }
 main .login #loginFrm fieldset .loginOption .left {}
-main .login #loginFrm fieldset .loginOption .left .longBtn {}
+main .login #loginFrm fieldset .loginOption .left .fa {
+    appearance: none;
+}
+main .login #loginFrm fieldset .loginOption .left .fa::before {
+    content: '\f058'; color: #aaa;
+}
+main .login #loginFrm fieldset .loginOption .left .fa:checked::before {
+    content: '\f058'; color: #03c75a;
+}
 main .login #loginFrm fieldset .loginOption .right {}
 main .login #loginFrm fieldset .loginOption .right a {}
 main .login #loginFrm fieldset .loginOption .right a span {

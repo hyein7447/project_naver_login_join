@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>NAVER</title>
+    <title>네이버 | 회원가입</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/join.css">
@@ -15,32 +15,72 @@
     <main>
         <div class="join">
             <h1><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a></h1>
-            <form action="#" method="post" id="joinFrm">
-                <fieldset>
-                    <legend class="skip">
+            <div class="content">
+                <form action="#" method="post" id="joinFrm">
+                    <fieldset>
+                        <legend class="skip">가입양식</legend>
                         <dl>
                             <dt>아이디</dt>
                             <dd>
-                                <input type="text" >
+                                <input type="text" name="userId" value="@naver.com" >
                             </dd>
-                            <dt></dt>
-                            <dd></dd>
-                            <dt></dt>
-                            <dd></dd>
-                            <dt></dt>
-                            <dd></dd>
-                            <dt></dt>
-                            <dd></dd>
-                            <dd></dd>
-                            <dd></dd>
-                            <dt></dt>
-                            <dd></dd>
-                            <dt></dt>
-                            <dd></dd>
+                            <dt>비밀번호</dt>
+                            <dd><input type="password" name="userPwd"></dd>
+                            <dt>비밀번호 재확인</dt>
+                            <dd><input type="password" name="userRePwd"></dd>
+                            <dt>이름</dt>
+                            <dd><input type="text" name="userName"></dd>
+                            <dt>생년월일</dt>
+                            <dd class="birthDay">
+                                <input type="text" name="year" placeholder="년(4자)" maxlength="4">
+                                <select name="userBirth" id="userBirth">
+                                    <option value="month">월</option>
+                                    <option value="january">1</option>
+                                    <option value="february">2</option>
+                                    <option value="march">3</option>
+                                    <option value="april">4</option>
+                                    <option value="may">5</option>
+                                    <option value="june">6</option>
+                                    <option value="july">7</option>
+                                    <option value="august">8</option>
+                                    <option value="september">9</option>
+                                    <option value="october">10</option>
+                                    <option value="november">11</option>
+                                    <option value="december">12</option>
+                                </select>
+                                <input type="text" name="day" id="day" maxlength="2">
+                            </dd>
+                            <dt>성별</dt>
+                            <dd>
+                                <select name="gender" id="gender">
+                                    <option value="gender">성별</option>
+                                    <option value="male">남</option>
+                                    <option value="female">여</option>
+                                </select>
+                            </dd>
+                            <dt>본인 확인 이메일<span>(선택)</span></dt>
+                            <dd><input type="text" name="userMail"></dd>
+                            <dt>휴대전화</dt>
+                            <dd>
+                                <select name="phone1" id="phone1">
+                                    <option value="82">대한민국 +82</option>
+                                    <option value="852">홍콩 +852</option>
+                                </select>
+                            </dd>
+                            <dd class="phoneNum">
+                                <input type="text" name="phone2" placeholder="전화번호 입력">
+                                <button type="button" id="phoneBtn">인증번호 받기</button>
+                            </dd>
+                            <dd class="certifyNum">
+                                <input type="text" name="phone3" placeholder="인증번호 입력하세요">
+                            </dd>
                         </dl>
-                    </legend>
-                </fieldset>
-            </form>
+                        <div class="submitBtn">
+                            <button type="submit" id="joinBtn">가입하기</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </main>
     <footer>

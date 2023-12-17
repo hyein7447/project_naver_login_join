@@ -6,23 +6,40 @@ main .law h1 {margin: 40px 0;}
 main .law h1 a {}
 main .law h1 a img {width: 230px; height: 45px;}
 main .law .content {}
-main .law .content form {}
-main .law .content form fieldset {
+main .law .content #lawFrm {}
+main .law .content #lawFrm fieldset {
     width: 460px;
 }
-main .law .content form fieldset>p {
-    font-size: 0.875rem; font-weight: 700;
+main .law .content #lawFrm fieldset>p {
     margin-bottom: 30px;
-    line-height: 1.5;
+}
+main .law .content #lawFrm fieldset p label {
+    font-size: 0.875rem; font-weight: 700;
+    line-height: 1.5; letter-spacing: -0.5px;
     text-decoration: underline;
 }
-main .law .content form fieldset p label {}
-main .law .content form fieldset p label #allAgree {}
+main .law .content #lawFrm fieldset #allAgree {
+    appearance: none;
+}
+main .law .content #lawFrm fieldset p #allAgree + label::before {
+    content: '\f14a'; color: #aaa;
+}
+main .law .content #lawFrm fieldset p #allAgree:checked + label::before {
+    color: #08a600;
+}
 main .law .content form fieldset dl {}
 main .law .content form fieldset dl dt {
     margin: 20px 0; font-weight: 700;
 }
-main .law .content form fieldset dl dt input {}
+main .law .content form fieldset dl dt .fa {
+    appearance: none;
+}
+main .law .content form fieldset dl dt input::before {
+    content: '\f14a'; color: #aaa;
+}
+main .law .content form fieldset dl dt input:checked::before {
+    color: #08a600;
+}
 main .law .content form fieldset dl dt span {
     color: #08a600;
 }
